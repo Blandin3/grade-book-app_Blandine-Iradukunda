@@ -23,7 +23,7 @@ class Student:
         self.courses_registered.append(course_dict)
 
     def generate_transcript(self):
-        transcript = "Transcript for {} (Email: {}):\n".format(self.names, self.email)
+        transcript = f"Transcript for {student.names} (Email: {student.email}):\n"
         for i, course_dict in enumerate(self.courses_registered, start=1):
             for course_name, grade in course_dict.items():
                 transcript += f"{i}. Course: {course_name}, Grade: {grade}\n"
