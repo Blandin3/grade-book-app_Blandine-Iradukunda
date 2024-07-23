@@ -165,7 +165,7 @@ def main():
             filename = input("Enter filename to save data (e.g., gradebook.json): ")
             gradebook.save_to_file(filename)
         elif choice == "9":
-            print("Exiting the Grade Book Application. Goodbye!")
+            print("Exiting the Grade Book Application. Thank you for using the grade book app!")
             exit()
         else:
             print("Invalid option, please select again.")
